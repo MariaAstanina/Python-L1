@@ -3,7 +3,7 @@
 # Задание необходимо реализовать в виде функции my_func(x, y).
 # При решении задания необходимо обойтись без встроенной функции возведения числа в степень.
 
-def exponentation(base=float, exponent=int):
+def exponentation(base: float, exponent: int):
     """Функция фыполняет операцию возведения числа в степерь"""
     temp = 1
     for exp in range(abs(exponent)):
