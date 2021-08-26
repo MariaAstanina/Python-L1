@@ -8,9 +8,7 @@
 # проверить значения атрибутов, вызвать методы экземпляров).
 
 class Worker:
-    name = ''
-    surname = ''
-    position = ''
+    
     _income = {"wage": 0, "bonus": 0}
 
     @property
