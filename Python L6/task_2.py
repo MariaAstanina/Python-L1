@@ -6,8 +6,6 @@
 # Проверить работу метода.
 
 class Road:
-    _length = 0
-    _width = 0
     _weight = 25
     _thickness = 5
 
