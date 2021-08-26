@@ -8,9 +8,7 @@
 # проверить значения атрибутов, вызвать методы экземпляров).
 
 class Worker:
-    
-    _income = {"wage": 0, "bonus": 0}
-
+   
     @property
     def income(self):
         return self._income
@@ -19,6 +17,7 @@ class Worker:
         self.name = name
         self.surname = surname
         self.position = position
+        self.income = {"wage": 0, "bonus": 0}
         for num, st in enumerate(self.income):
             self.income[st] = income[num]
 
