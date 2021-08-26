@@ -9,9 +9,6 @@
 # Выполните вызов методов и также покажите результат.
 
 class Car:
-    speed = 0
-    color = ''
-    name = ''
     is_police = False
 
     def __init__(self, speed, color, name):
